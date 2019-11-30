@@ -5,11 +5,11 @@ It is a Project which deals with making of a customised "UBUNTU TERMINAL COMMAND
 
 ## RUN the Following Commands And You Are Ready For New Customized Command On Ubuntu:-
 
-`python3 installing.py`
-`gedit ~/.bashrc`
+-`python3 installing.py`
+-`gedit ~/.bashrc`
 
 PASTE THE FOLLOWING LINE AT THE END OF THE FILE(.bashrc) In a new line.
-`export PATH=~/Pattern_Matching:$PATH`
+-`export PATH=~/Pattern_Matching:$PATH`
 
 *****************************************************************************************************************************
 
@@ -24,17 +24,17 @@ PASTE THE FOLLOWING LINE AT THE END OF THE FILE(.bashrc) In a new line.
 
 ## Metacharacters:
 
-Character                                     Description                                     Example
+Character                                     Description                                   Example
 
-    []                                    A set of characters                                 "[a-m]"
+    []                                    A set of characters                               "[a-m]"
 
-    \                                 Signals a special sequence                               "\d"
+    \                                 Signals a special sequence                             "\d"
                              (can also be used to escape special characters)
 
-    .                                          Any character                                   "he..o"
+    .                                          Any character                                 "he..o"
                                       (except newline character)    
 
-    |                                           Either or                                    "falls|stays" 
+    |                                           Either or                                  "falls|stays" 
 
 
 ## Special Sequences:
@@ -66,19 +66,20 @@ A set is a set of characters inside a pair of square brackets [] with a special 
 
 Set                                                  Description
 
-    [arn]               Returns a match where one of the specified characters (a, r, or n) are present
+    [arn]            Returns a match where one of the specified characters (a, r, or n) are present
 
-    [a-n]              Returns a match for any lower case character, alphabetically between a and n
+    [a-n]            Returns a match for any lower case character, alphabetically between a and n
 
-    [^arn]            Returns a match for any character EXCEPT a, r, and n
+    [^arn]           Returns a match for any character EXCEPT a, r, and n
 
     [0123]           Returns a match where any of the specified digits (0, 1, 2, or 3) are present
 
-    [0-9]              Returns a match for any digit between 0 and 9
+    [0-9]            Returns a match for any digit between 0 and 9
 
-    [0-5][0-9]      Returns a match for any two-digit numbers from 00 and 59 
+    [0-5][0-9]       Returns a match for any two-digit numbers from 00 and 59 
 
-    [a-zA-Z]        Returns a match for any character alphabetically between a and z, lower case OR upper case
+    [a-zA-Z]         Returns a match for any character alphabetically between a and z,
+                     lower case OR upper case
 
 
 ## Contributers
