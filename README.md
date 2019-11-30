@@ -5,11 +5,11 @@ It is a Project which deals with making of a customised "UBUNTU TERMINAL COMMAND
 
 ## RUN the Following Commands And You Are Ready For New Customized Command On Ubuntu:-
 
--`python3 installing.py`
--`gedit ~/.bashrc`
+- `python3 installing.py`
+- `gedit ~/.bashrc`
 
 PASTE THE FOLLOWING LINE AT THE END OF THE FILE(.bashrc) In a new line.
--`export PATH=~/Pattern_Matching:$PATH`
+- `export PATH=~/Pattern_Matching:$PATH`
 
 *****************************************************************************************************************************
 
@@ -57,7 +57,7 @@ Character                                     Description                       
                                       contains a white space character                    "\s"
 
     \S                                Returns a match where the string DOES
-                                      NOT contain a white space character 		          "\S"
+                                      NOT contain a white space character 		      "\S"
 
 
 ## Sets:
