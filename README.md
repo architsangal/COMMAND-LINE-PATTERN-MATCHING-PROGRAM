@@ -1,5 +1,7 @@
 # COMMAND-LINE-PATTERN-MATCHING-PROGRAM
+
 It is a Project which deals with making of a customised "UBUNTU TERMINAL COMMAND", changing the "PATH VARIABLE" by making changes to .bashrc, involves the use of ReGex (re module of Python) and os related modules of python
+*****************************************************************************************************************************
 
 ## RUN the Following Commands And You Are Ready For New Customized Command On Ubuntu:-
 
@@ -9,18 +11,20 @@ It is a Project which deals with making of a customised "UBUNTU TERMINAL COMMAND
 PASTE THE FOLLOWING LINE AT THE END OF THE FILE(.bashrc) In a new line.
 `export PATH=~/Pattern_Matching:$PATH`
 
-# Commands Are :-
-pamatch
-work
-
 *****************************************************************************************************************************
 
+# Commands Are :-
+- pamatch
+- work
+
+*****************************************************************************************************************************
 # Guide for pattern matching
 
-*****************************************************************************************************************************
+
+
 ## Metacharacters:
 
-### Character                                     Description                                     Example
+Character                                     Description                                     Example
 
     []                                    A set of characters                                 "[a-m]"
 
@@ -33,12 +37,11 @@ work
    |                                           Either or                                    "falls|stays" 
 
 
-*****************************************************************************************************************************
 ## Special Sequences:
 
-#### A special sequence is a \ followed by one of the characters in the list below, and has a special meaning:
+A special sequence is a \ followed by one of the characters in the list below, and has a special meaning:
 
-### Character                                     Description                                 Example
+Character                                     Description                                 Example
 
 \b                                Returns a match where the specified 
                                   characters are at the beginning or at the       	   "\bain
@@ -57,12 +60,11 @@ work
                                    NOT contain a white space character 		            "\S"
 
 
-*****************************************************************************************************************************
 ## Sets:
 
-#### A set is a set of characters inside a pair of square brackets [] with a special meaning:
+A set is a set of characters inside a pair of square brackets [] with a special meaning:
 
-### Set                                                  Description
+Set                                                  Description
 
 [arn]               Returns a match where one of the specified characters (a, r, or n) are present
 
@@ -77,7 +79,7 @@ work
 [0-5][0-9]      Returns a match for any two-digit numbers from 00 and 59 
 
 [a-zA-Z]        Returns a match for any character alphabetically between a and z, lower case OR upper case
-*****************************************************************************************************************************
+
 ## Contributers
 
 - Archit Sangal
